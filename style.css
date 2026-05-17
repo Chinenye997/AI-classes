@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* ================= NAVBAR ================= */
+
+.navbar {
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 35px;
+    left: 0;
+    background: white;
+    display: none;
+    min-width: 180px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.dropdown-menu li {
+    list-style: none;
+}
+
+.dropdown-menu li a {
+    color: black;
+    display: block;
+    padding: 12px;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #f2f2f2;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input {
+    padding: 10px;
+    border: none;
+    border-radius: 8px 0 0 8px;
+    width: 220px;
+}
+
+.search-bar button {
+    border: none;
+    background: white;
+    padding: 10px 15px;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+}
+
+/* ================= HERO SECTION ================= */
+
+.hero-section {
+    width: 100%;
+    min-height: 35vh;
+    background: #ffeaea;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 40px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h1 {
+    font-size: 55px;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero-text button {
+    padding: 15px 30px;
+    border: none;
+    background: red;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.hero-image {
+    flex: 1;
+}
+
+.hero-image img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+/* ================= MAIN AREA ================= */
+
+.main-container {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    background: white;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: sticky;
+    top: 100px;
+    height: fit-content;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background: red;
+    color: white;
+}
+
+.products-area {
+    flex: 1;
+    padding: 30px;
+}
+
+.product-section {
+    margin-bottom: 70px;
+}
+
+.product-section h2 {
+    margin-bottom: 20px;
+    color: red;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.product-card h3,
+.product-card p {
+    padding: 10px 15px;
+}
+
+.product-card button {
+    margin: 10px 15px 20px;
+    padding: 10px 15px;
+    border: none;
+    background: red;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* ================= FOOTER ================= */
+
+footer {
+    background: darkred;
+    color: white;
+    padding: 50px 30px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+}
+
+.footer-container h3 {
+    margin-bottom: 15px;
+}
+
+.footer-container p,
+.footer-container i {
+    margin-bottom: 10px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media(max-width: 900px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .hero-section {
+        flex-direction: column;
+    }
+
+    .main-container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        position: relative;
+        top: 0;
+    }
+
+}

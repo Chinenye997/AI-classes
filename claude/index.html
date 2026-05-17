@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CHILDRENSMART — Smart Fashion for Smart Kids</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- ===== NAVIGATION BAR ===== -->
+  <header class="navbar">
+    <div class="nav-inner">
+
+      <!-- Logo -->
+      <div class="logo">
+        <div class="logo-icon">
+          <i class="fas fa-star"></i>
+          <span class="logo-dot"></span>
+        </div>
+        <div class="logo-text">
+          <span class="logo-children">Children</span><span class="logo-smart">smart</span>
+        </div>
+      </div>
+
+      <!-- Nav Menu -->
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-links">
+          <li class="nav-item has-dropdown">
+            <a href="#">Products <i class="fas fa-chevron-down"></i></a>
+            <ul class="dropdown">
+              <li><a href="#">New Arrivals</a></li>
+              <li><a href="#">Best Sellers</a></li>
+              <li><a href="#">Seasonal Picks</a></li>
+              <li><a href="#">Sale Items</a></li>
+            </ul>
+          </li>
+          <li class="nav-item has-dropdown">
+            <a href="#">Services <i class="fas fa-chevron-down"></i></a>
+            <ul class="dropdown">
+              <li><a href="#">Gift Wrapping</a></li>
+              <li><a href="#">Personal Styling</a></li>
+              <li><a href="#">School Bulk Orders</a></li>
+              <li><a href="#">Loyalty Program</a></li>
+            </ul>
+          </li>
+          <li class="nav-item has-dropdown">
+            <a href="#">Customer Service <i class="fas fa-chevron-down"></i></a>
+            <ul class="dropdown">
+              <li><a href="#">Track My Order</a></li>
+              <li><a href="#">Returns & Exchanges</a></li>
+              <li><a href="#">Size Guide</a></li>
+              <li><a href="#">FAQs</a></li>
+            </ul>
+          </li>
+          <li class="nav-item has-dropdown">
+            <a href="#">Contact Us <i class="fas fa-chevron-down"></i></a>
+            <ul class="dropdown">
+              <li><a href="#">Live Chat</a></li>
+              <li><a href="#">Email Us</a></li>
+              <li><a href="#">Find a Store</a></li>
+              <li><a href="#">Call Us</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Search Bar -->
+      <div class="search-bar">
+        <i class="fas fa-search search-icon"></i>
+        <input type="text" placeholder="Search children's products" />
+      </div>
+
+      <!-- Hamburger -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero">
+    <div class="hero-left">
+      <div class="hero-badge"><i class="fas fa-certificate"></i> #1 Kids Fashion Brand</div>
+      <h1 class="hero-heading">Smart Fashion<br/>for <span class="highlight">Smart Kids</span></h1>
+      <p class="hero-sub">Discover stylish, comfortable, and affordable children's clothing for every occasion.</p>
+      <div class="hero-actions">
+        <a href="#" class="btn-shop">Shop Now <i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="btn-explore">Explore Deals</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><strong>5K+</strong><span>Products</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><strong>20K+</strong><span>Happy Kids</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><strong>4.9★</strong><span>Rating</span></div>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="hero-image-wrap">
+        <div class="hero-blob"></div>
+        <div class="hero-img-placeholder">
+          <div class="kids-illustration">
+            <div class="kid kid-1">
+              <div class="kid-head"></div>
+              <div class="kid-body" style="background:#e63946;"></div>
+              <div class="kid-legs"></div>
+            </div>
+            <div class="kid kid-2">
+              <div class="kid-head"></div>
+              <div class="kid-body" style="background:#457b9d;"></div>
+              <div class="kid-legs"></div>
+            </div>
+            <div class="kid kid-3">
+              <div class="kid-head"></div>
+              <div class="kid-body" style="background:#f4a261;"></div>
+              <div class="kid-legs"></div>
+            </div>
+          </div>
+          <p class="img-note"><i class="fas fa-image"></i> Add your hero image here</p>
+        </div>
+        <div class="float-badge badge-1"><i class="fas fa-truck"></i> Free Shipping</div>
+        <div class="float-badge badge-2"><i class="fas fa-undo"></i> Easy Returns</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MAIN LAYOUT: SIDEBAR + CONTENT ===== -->
+  <div class="main-layout">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <i class="fas fa-th-large"></i> Categories
+      </div>
+      <nav class="sidebar-nav">
+        <a href="#shoes" class="sidebar-link" data-target="shoes">
+          <i class="fas fa-shoe-prints"></i> Children's Shoes
+        </a>
+        <a href="#girls-toys" class="sidebar-link" data-target="girls-toys">
+          <i class="fas fa-star"></i> Girls' Toys
+        </a>
+        <a href="#boys-toys" class="sidebar-link" data-target="boys-toys">
+          <i class="fas fa-rocket"></i> Boys' Toys
+        </a>
+        <a href="#uniforms" class="sidebar-link" data-target="uniforms">
+          <i class="fas fa-graduation-cap"></i> School Uniforms
+        </a>
+        <a href="#girls-blouses" class="sidebar-link" data-target="girls-blouses">
+          <i class="fas fa-tshirt"></i> Girls' Blouses
+        </a>
+        <a href="#boys-trousers" class="sidebar-link" data-target="boys-trousers">
+          <i class="fas fa-user-tie"></i> Boys' Trousers
+        </a>
+        <a href="#girls-skirts" class="sidebar-link" data-target="girls-skirts">
+          <i class="fas fa-female"></i> Girls' Skirts
+        </a>
+      </nav>
+    </aside>
+
+    <!-- PRODUCT CONTENT -->
+    <main class="content">
+
+      <!-- ===== SHOES ROW ===== -->
+      <section class="product-row" id="shoes">
+        <div class="row-header">
+          <h2><i class="fas fa-shoe-prints"></i> Children's Shoes</h2>
+          <a href="#" class="see-all">See All <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="product-grid">
+
+          <div class="product-card">
+            <div class="card-img-wrap">
+              <div class="card-img-placeholder" style="background:linear-gradient(135deg,#ffd6d6,#ffb3b3);">
+                <i class="fas fa-shoe-prints"></i>
+              </div>
+              <span class="card-badge">New</span>
+            </div>
+            <div class="card-body">
+              <p class="card-name">Male Sandals</p>
+              <p class="card-price">₦4,500</p>
+              <button class="btn-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="card-img-wrap">
+              <div class="card-img-placeholder" style="background:linear-gradient(135deg,#ffd6f0,#ffb3e0);">
+                <i class="fas fa-shoe-prints"></i>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-name">Female Sandals</p>
+              <p class="card-price">₦4,800</p>
+              <button class="btn-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="card-img-wrap">
+              <div class="card-img-placeholder" style="background:linear-gradient(135deg,#d6e8ff,#b3d0ff);">
+                <i class="fas fa-shoe-prints"></i>
+              </div>
+              <span class="card-badge sale">Sale</span>
+            </div>
+            <div class="card-body">
+              <p class="card-name">Laced Shoes</p>
+              <p class="card-price">₦6,200</p>
+              <button class="btn-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="card-img-wrap">
+              <div class="card-img-placeholder" style="background:linear-gradient(135deg,#d6ffd6,#b3ffb3);">
+                <i class="fas fa-shoe-prints"></i>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-name">Non-Laced Shoes</p>
+              <p class="card-price">₦5,500</p>
+              <button class="btn-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="card-img-wrap">
+              <div class="card-img-placeholder" style="background:linear-gradient(135deg,#fff3d6,#ffe4b3);">
+                <i class="fas fa-shoe-prints"></i>
+              </div>
+              <span class="card-badge">Hot</span>
+            </div>
+            <div class="card-body">
+              <p class="card-name">Canvas Shoes</p>
+              <p class="card-price">₦5,000</p>
+              <button class="btn-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ===== GIRLS' TOYS ROW ===== -->
+      <section class="product-row" id="girls-toys">
+        <div class="row-header">
+          <h2><i class="fas fa-star"></i> Girls' Toys</h2>
+          <a href="#" class="see-all">See All <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="product-grid">
+
+          <div class="product-card">
+            <div class="card-img-wrap">
+              <div class="card-img-placeholder" style="background:linear-gradient(135deg,#ffd6f0,#ffb3e0);">
+                <i class="fas fa-baby"></i>
+              </div>
+              <span class="card-badge">New</span>
+            </div>
+            <div class="card-body">
+              <p class="card-name">Fashion Dolls</p>
+              <p class="card-price">₦3,500</p>
+              <button class="btn-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="card-img-wrap">
+              <div class="card-img-placeholder" style="background:linear-gradient(135deg,#d6f0ff,#b3e0ff);">
+                <i class="fas fa-heart"></i>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-name">Teddy Bears</p>
+              <p class="card-price">₦2,800</p>
+              <button class="btn-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="card-img-wrap">
+              <div class="card-img-placeholder" style="background:linear-gradient(135deg,#fff3d6,#ffe4b3);">
+                <i class="fas fa-utensils"></i>
+              </div>
+              <span class="card-badge sale">Sale</span>
+            </div>
+            <div class="card-body">
+              <p class="card-name">Toy Kitchen Sets</p>
+              <p class="card-price">₦7,500</p>
+              <button class="btn-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="card-img-wrap">
+              <div class="card-img-placeholder" style="background:linear-gradient(135deg,#ffd6d6,#ffb3b3);">
+                <i class="fas fa-magic"></i>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-name">Toy Makeup Kits</p>
+              <p class="card-price">₦4,200</p>
+              <button class="btn-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="card-img-wrap">
+              <div class="card-img-placeholder" style="background:linear-gradient(135deg,#d6ffd6,#b3ffb3);">
+                <i class="fas fa-backpack"></i>
+              </div>
+              <span class="card-badge">Hot</span>
+            </div>
+            <div class="card-body">
+              <p class="card-name">Cartoon Backpacks</p>
+              <p class="card-price">₦5,800</p>
+              <button class="btn-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ===== BOYS' TOYS ROW ===== -->
+      <section class="product-row" id="boys-toys">
+        <div class="row-header">
+          <h2><i class="fas fa-rocket"></i> Boys' Toys</h2>
+          <a href="#" class="see-all">See All <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="product-grid">
+
+          <div class="product-card">
+            <div class="card-img-wrap">
+              <div class="card-img-placeholder" style="background:linear-gradient(135deg,#d6e8ff,#b3d0ff);">
+                <i class="fas fa-car"></i>
+              </div>
+              <span class="card-badge">New</span>
+            </div>
+            <div class="card-body">
+              <p class="card-name">Toy Cars</p>
+              <p class="card-price">₦3,200</p>
+              <button class="btn-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="card-img-wrap">
+              <div class="card-img-placeholder" style="background:linear-gradient(135deg,#ffd6d6,#ffb3b3);">
+                <i class="fas fa-fist-raised"></i>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-name">Action Figures</p>
+              <p class="card-price">₦4,500</p>
+              <button class="btn-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="card-img-wrap">
+              <div class="card-img-placeholder" style="background:linear-gradient(135deg,#d6ffd6,#b3ffb3);">
+                <i class="fas fa-futbol"></i>
+              </div>
+              <span class="card-badge sale">Sale</span>
+            </div>
+            <div class="card-body">
+              <p class="card-name">Football Toys</p>
+              <p class="card-price">₦2,900</p>
+              <button class="btn-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="card-img-wrap">
+              <div class="card-img-placeholder" style="background:linear-gradient(135deg,#fff3d6,#ffe4b3);">
+                <i class="fas fa-flag-checkered"></i>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-name">Racing Sets</p>
+              <p class="card-price">₦8,500</p>
+              <button class="btn-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="card-img-wrap">
+              <div class="card-img-placeholder" style="background:linear-gradient(135deg,#e8d6ff,#d0b3ff);">
+                <i class="fas fa-robot"></i>
+              </div>
+              <span class="card-badge">Hot</span>
+            </div>
+            <div class="card-body">
+              <p class="card-name">Robot Toys</p>
+              <p class="card-price">₦9,200</p>
+              <button class="btn-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ===== SCHOOL UNIFORMS ROW ===== -->
+      <section class="product-row" id="uniforms">
+        <div class="row-header">
+          <h2><i class="fas fa-graduation-cap"></i> Sample School Uniforms</h2>
+          <a href="#" class="see-all">See All <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="product-grid">
+
+          <div class="product-card">
+            <div class="card-img-wrap">
+              <div class="card-img-placeholder" style="background:linear-gradient(135deg,#d6e8ff,#b3d0ff);">
+                <i class="fas fa-user-tie"></i>
+              </div>
+              <span class="card-badge">New</span>
+            </div>
+            <div class="card-body">
+              <p class="card-name">Male School Uniform</p>
+              <p class="card-price">₦8,000</p>
+              <button class="btn-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="card-img-wrap">
+              <div class="card-img-placeholder" style="background:linear-gradient(135deg,#ffd6f0,#ffb3e0);">
+                <i class="fas fa-female"></i>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-name">Female School Uniform</p>
+              <p class="card-price">₦7,500</p>
+              <button class="btn-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="card-img-wrap">
+              <div class="card-img-placeholder" style="background:linear-gradient(135deg,#d6ffd6,#b3ffb3);">
+                <i class="fas fa-tshirt"></i>
+              </div>
+              <span class="card-badge sale">Sale</span>
+            </div>
+            <div class="card-body">
+              <p class="card-name">School Blazers</p>
+              <p class="card-price">₦12,000</p>
+              <button class="btn-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="card-img-wrap">
+              <div class="card-img-placeholder" style="background:linear-gradient(135deg,#fff3d6,#ffe4b3);">
+                <i class="fas fa-band-aid"></i>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-name">School Ties</p>
+              <p class="card-price">₦1,500</p>
+              <button class="btn-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="card-img-wrap">
+              <div class="card-img-placeholder" style="background:linear-gradient(135deg,#ffd6d6,#ffb3b3);">
+                <i class="fas fa-tshirt"></i>
+              </div>
+              <span class="card-badge">Hot</span>
+            </div>
+            <div class="card-body">
+              <p class="card-name">School Sweaters</p>
+              <p class="card-price">₦5,500</p>
+              <button class="btn-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ===== GIRLS' BLOUSES ROW ===== -->
+      <section class="product-row" id="girls-blouses">
+        <div class="row-header">
+          <h2><i class="fas fa-tshirt"></i> Girls' Blouses</h2>
+          <a href="#" class="see-all">See All <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="product-grid">
+
+          <div class="product-card">
+            <div class="card-img-wrap">
+              <div class="card-img-placeholder" style="background:linear-gradient(135deg,#ffd6f0,#ffb3e0);">
+                <i class="fas fa-tshirt"></i>
+              </div>
+              <span class="card-badge">New</span>
+            </div>
+            <div class="card-body">
+              <p class="card-name">Floral Blouse</p>
+              <p class="card-price">₦3,800</p>
+              <button class="btn-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="card-img-wrap">
+              <div class="card-img-placeholder" style="background:linear-gradient(135deg,#d6f0ff,#b3e0ff);">
+                <i class="fas fa-tshirt"></i>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-name">Striped Blouse</p>
+              <p class="card-price">₦3,500</p>
+              <button class="btn-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="card-img-wrap">
+              <div class="card-img-placeholder" style="background:linear-gradient(135deg,#d6ffd6,#b3ffb3);">
+                <i class="fas fa-tshirt"></i>
+              </div>
+              <span class="card-badge sale">Sale</span>
+            </div>
+            <div class="card-body">
+              <p class="card-name">Lace-Trim Blouse</p>
+              <p class="card-price">₦4,200</p>
+              <button class="btn-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="card-img-wrap">
+              <div class="card-img-placeholder" style="background:linear-gradient(135deg,#fff3d6,#ffe4b3);">
+                <i class="fas fa-tshirt"></i>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-name">Embroidered Blouse</p>
+              <p class="card-price">₦4,800</p>
+              <button class="btn-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="card-img-wrap">
+              <div class="card-img-placeholder" style="background:linear-gradient(135deg,#e8d6ff,#d0b3ff);">
+                <i class="fas fa-tshirt"></i>
+              </div>
+              <span class="card-badge">Hot</span>
+            </div>
+            <div class="card-body">
+              <p class="card-name">Ruffle Blouse</p>
+              <p class="card-price">₦4,000</p>
+              <button class="btn-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ===== BOYS' TROUSERS ROW ===== -->
+      <section class="product-row" id="boys-trousers">
+        <div class="row-header">
+          <h2><i class="fas fa-user-tie"></i> Boys' Trousers</h2>
+          <a href="#" class="see-all">See All <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="product-grid">
+
+          <div class="product-card">
+            <div class="card-img-wrap">
+              <div class="card-img-placeholder" style="background:linear-gradient(135deg,#d6e8ff,#b3d0ff);">
+                <i class="fas fa-male"></i>
+              </div>
+              <span class="card-badge">New</span>
+            </div>
+            <div class="card-body">
+              <p class="card-name">Chino Trousers</p>
+              <p class="card-price">₦5,200</p>
+              <button class="btn-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="card-img-wrap">
+              <div class="card-img-placeholder" style="background:linear-gradient(135deg,#ffd6d6,#ffb3b3);">
+                <i class="fas fa-male"></i>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-name">Denim Jeans</p>
+              <p class="card-price">₦6,500</p>
+              <button class="btn-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="card-img-wrap">
+              <div class="card-img-placeholder" style="background:linear-gradient(135deg,#d6ffd6,#b3ffb3);">
+                <i class="fas fa-male"></i>
+              </div>
+              <span class="card-badge sale">Sale</span>
+            </div>
+            <div class="card-body">
+              <p class="card-name">Cargo Trousers</p>
+              <p class="card-price">₦5,800</p>
+              <button class="btn-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="card-img-wrap">
+              <div class="card-img-placeholder" style="background:linear-gradient(135deg,#fff3d6,#ffe4b3);">
+                <i class="fas fa-male"></i>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-name">Smart Dress Pants</p>
+              <p class="card-price">₦7,000</p>
+              <button class="btn-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="card-img-wrap">
+              <div class="card-img-placeholder" style="background:linear-gradient(135deg,#e8d6ff,#d0b3ff);">
+                <i class="fas fa-male"></i>
+              </div>
+              <span class="card-badge">Hot</span>
+            </div>
+            <div class="card-body">
+              <p class="card-name">Jogger Pants</p>
+              <p class="card-price">₦4,500</p>
+              <button class="btn-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ===== GIRLS' SKIRTS ROW ===== -->
+      <section class="product-row" id="girls-skirts">
+        <div class="row-header">
+          <h2><i class="fas fa-female"></i> Girls' Skirts</h2>
+          <a href="#" class="see-all">See All <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="product-grid">
+
+          <div class="product-card">
+            <div class="card-img-wrap">
+              <div class="card-img-placeholder" style="background:linear-gradient(135deg,#ffd6f0,#ffb3e0);">
+                <i class="fas fa-female"></i>
+              </div>
+              <span class="card-badge">New</span>
+            </div>
+            <div class="card-body">
+              <p class="card-name">Pleated Skirt</p>
+              <p class="card-price">₦3,200</p>
+              <button class="btn-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="card-img-wrap">
+              <div class="card-img-placeholder" style="background:linear-gradient(135deg,#d6f0ff,#b3e0ff);">
+                <i class="fas fa-female"></i>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-name">Floral Skirt</p>
+              <p class="card-price">₦3,500</p>
+              <button class="btn-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="card-img-wrap">
+              <div class="card-img-placeholder" style="background:linear-gradient(135deg,#d6ffd6,#b3ffb3);">
+                <i class="fas fa-female"></i>
+              </div>
+              <span class="card-badge sale">Sale</span>
+            </div>
+            <div class="card-body">
+              <p class="card-name">Denim Mini Skirt</p>
+              <p class="card-price">₦4,000</p>
+              <button class="btn-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="card-img-wrap">
+              <div class="card-img-placeholder" style="background:linear-gradient(135deg,#fff3d6,#ffe4b3);">
+                <i class="fas fa-female"></i>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-name">Tutu Skirt</p>
+              <p class="card-price">₦3,800</p>
+              <button class="btn-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="card-img-wrap">
+              <div class="card-img-placeholder" style="background:linear-gradient(135deg,#ffd6d6,#ffb3b3);">
+                <i class="fas fa-female"></i>
+              </div>
+              <span class="card-badge">Hot</span>
+            </div>
+            <div class="card-body">
+              <p class="card-name">A-Line Skirt</p>
+              <p class="card-price">₦3,600</p>
+              <button class="btn-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-top">
+
+      <div class="footer-col footer-brand">
+        <div class="footer-logo">
+          <i class="fas fa-star"></i>
+          <span>Children<strong>smart</strong></span>
+        </div>
+        <p>Nigeria's most-loved children's fashion destination. Bringing smart style to every little one since 2018.</p>
+        <div class="social-icons">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">New Arrivals</a></li>
+          <li><a href="#">Best Sellers</a></li>
+          <li><a href="#">Sale</a></li>
+          <li><a href="#">Gift Cards</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Customer Support</h4>
+        <ul>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> Track My Order</a></li>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> Returns & Exchanges</a></li>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> Size Guide</a></li>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> FAQs</a></li>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> Privacy Policy</a></li>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> Terms of Service</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-newsletter">
+        <h4>Stay Updated</h4>
+        <p>Get the latest deals, new arrivals, and style tips straight to your inbox.</p>
+        <div class="newsletter-form">
+          <input type="email" placeholder="Your email address" />
+          <button type="button"><i class="fas fa-paper-plane"></i></button>
+        </div>
+        <div class="contact-info">
+          <p><i class="fas fa-phone"></i> +234 800 CHILDSMART</p>
+          <p><i class="fas fa-envelope"></i> hello@childrensmart.ng</p>
+          <p><i class="fas fa-map-marker-alt"></i> Lagos, Abuja, Port Harcourt</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 CHILDRENSMART. All rights reserved. Made with <i class="fas fa-heart" style="color:#ff6b6b;"></i> for amazing kids.</p>
+      <div class="payment-icons">
+        <i class="fab fa-cc-visa"></i>
+        <i class="fab fa-cc-mastercard"></i>
+        <i class="fab fa-paypal"></i>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast">
+    <i class="fas fa-check-circle"></i> Item added to cart!
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

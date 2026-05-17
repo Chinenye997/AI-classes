@@ -1,0 +1,204 @@
+Prompt 1 — Create the Logo
+
+Create a modern and playful logo for a children's clothing company called CHILDRENSMART. 
+The logo should look colorful, friendly, professional, and attractive to parents and children. 
+Use a red and white color combination with soft rounded styling suitable for a children’s fashion brand.
+
+Place the CHILDRENSMART logo at the top-left corner of the landing page inside the navigation bar. 
+Ensure the logo is properly aligned vertically and has enough spacing from the edges of the screen.
+
+Prompt 3 — Create the Navigation Menu
+
+Create a responsive navigation menu for the CHILDRENSMART landing page. The menu bar should contain the following items:
+- Products
+- Services
+- Customer Service
+- Contact Us
+
+Each menu item should contain a dropdown menu with sample submenu items. The navigation menu should be centered horizontally inside the menu bar.
+
+Prompt 4 — Create the Search Bar
+Add a modern rounded search bar to the top-right side of the navigation bar. The search bar should contain a search icon and placeholder text saying “Search children's products”.
+
+Prompt 5 — Style the Entire Menu Bar
+Style the entire navigation bar with a red background frame. Use white text for all menu items so they are clearly visible. Add hover effects to the menu items and dropdowns. 
+Make the navigation bar responsive on mobile, tablet, and desktop screens.
+
+SECOND SET OF PROMPTS — HERO SECTION
+Prompt 6 — Create the Hero Section Layout
+Create a hero section for the CHILDRENSMART landing page that occupies 100% width of the page and about 35% height of the visible screen area. 
+Use a soft light-pink or light-cream background color suitable for children’s fashion branding.
+
+Prompt 7 — Partition the Hero Section
+Partition the hero section into two sections horizontally.
+
+Left Section:
+- Large heading
+- Short promotional text
+- “Shop Now” button
+
+Right Section:
+- Large image of happy children wearing fashionable clothes
+
+Ensure both sections are properly aligned and responsive.
+
+Prompt 8 — Hero Text Content
+Add the following content to the hero section:
+
+Heading:
+“Smart Fashion for Smart Kids”
+
+Subtext:
+“Discover stylish, comfortable, and affordable children's clothing for every occasion.”
+
+Add a red “Shop Now” button below the text.
+
+Prompt 9 — Hero Section Styling
+Add smooth spacing, soft shadows, rounded corners, and modern typography to the hero section. 
+Make the design playful, clean, and attractive to parents shopping for children’s products.
+
+THIRD SET OF PROMPTS — LEFT SIDEBAR PANEL
+Prompt 10 — Create Sidebar Navigation
+Create a vertical sidebar navigation panel on the left-hand side of the landing page below the navigation bar. 
+The sidebar should contain clickable stacked links.
+
+Prompt 11 — Add Sidebar Links
+Add the following clickable navigation links inside the sidebar:
+
+- Children's Shoes
+- Girls' Toys
+- Boys' Toys
+- Sample School Uniforms
+- Girls' Blouses
+- Boys' Trousers
+- Girls' Skirts
+
+Arrange the links vertically with equal spacing.
+
+Prompt 12 — Add Navigation Functionality
+Make each sidebar link scroll smoothly to its corresponding product row section in the main body of the landing page when clicked.
+
+Prompt 13 — Style the Sidebar
+Style the sidebar using a light background color with red hover effects. Add rounded edges, spacing, and icons beside each category link. 
+Ensure the sidebar remains responsive on smaller screens.
+
+Prompt 15 — Add 5 Product Cards Per Row
+Inside each product row, add 5 responsive product cards. Each product card should contain:
+- Product image
+- Product name
+- Product price
+- “Add to Cart” button
+
+Prompt 16 — Children's Shoes Row
+Create a product row for Children's Shoes containing:
+- Male sandals
+- Female sandals
+- Laced shoes
+- Non-laced shoes
+- Canvas shoes
+
+Prompt 17 — Girls’ Toys Row
+Create a Girls’ Toys product row containing:
+- Dolls
+- Teddy bears
+- Toy kitchen sets
+- Toy makeup kits
+- Cartoon backpacks
+
+Prompt 18 — Boys’ Toys Row
+Create a Boys’ Toys product row containing:
+- Toy cars
+- Action figures
+- Football toys
+- Racing sets
+- Robot toys
+
+Prompt 19 — School Uniforms Row
+Create a Sample School Uniforms row containing:
+- Male school uniforms
+- Female school uniforms
+- School blazers
+- School ties
+- School sweaters
+
+Prompt 20 — Clothing Rows
+Create additional product rows for:
+- Girls’ Blouses
+- Boys’ Trousers
+- Girls’ Skirts
+
+Each row should contain 5 different fashionable children’s clothing items.
+
+Prompt 21 — Product Card Styling
+Style all product cards with soft shadows, rounded corners, hover animations, spacing, and modern responsive grid layouts. 
+Use bright child-friendly colors while maintaining a professional ecommerce appearance.
+
+FIFTH SET OF PROMPTS — FOOTER SECTION
+Prompt 22 — Create Footer
+Create a professional footer section for the CHILDRENSMART landing page.
+
+Prompt 23 — Add Footer Content
+Add the following sections inside the footer:
+- Company information
+- Quick links
+- Customer support
+- Social media icons
+- Newsletter subscription form
+- Copyright text
+
+Prompt 24 — Footer Styling
+Style the footer with a dark red background and white text. 
+Add spacing, hover effects, and responsive layouts for mobile and desktop screens.
+
+
+
+ASSIGNMENT 2 — DEWEY CLASSIFICATION DOCUMENTATION
+1.0 Landing Page
+
+1.1 Menu Section
+1.1.1 Company Logo
+1.1.2 Navigation Menu
+1.1.2.1 Products
+1.1.2.2 Services
+1.1.2.3 Customer Service
+1.1.2.4 Contact Us
+1.1.3 Search Bar
+
+1.2 Hero Section
+1.2.1 Hero Layout
+1.2.2 Hero Heading
+1.2.3 Hero Description
+1.2.4 Shop Now Button
+1.2.5 Hero Image
+
+1.3 Sidebar Navigation
+1.3.1 Children's Shoes
+1.3.2 Girls' Toys
+1.3.3 Boys' Toys
+1.3.4 Sample School Uniforms
+1.3.5 Girls' Blouses
+1.3.6 Boys' Trousers
+1.3.7 Girls' Skirts
+
+1.4 Main Product Section
+1.4.1 Children's Shoes Product Row
+1.4.2 Girls' Toys Product Row
+1.4.3 Boys' Toys Product Row
+1.4.4 School Uniforms Product Row
+1.4.5 Girls' Blouses Product Row
+1.4.6 Boys' Trousers Product Row
+1.4.7 Girls' Skirts Product Row
+
+1.5 Product Cards
+1.5.1 Product Image
+1.5.2 Product Name
+1.5.3 Product Price
+1.5.4 Add to Cart Button
+
+1.6 Footer Section
+1.6.1 Company Information
+1.6.2 Quick Links
+1.6.3 Customer Support
+1.6.4 Social Media Icons
+1.6.5 Newsletter Subscription
+1.6.6 Copyright Information
