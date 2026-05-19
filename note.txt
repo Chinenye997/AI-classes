@@ -1,3 +1,6 @@
+Use multiple prompts:
+
+ASSIGNMENT 1 - Landing page of a children's clothing company called CHILDRENSMART
 Prompt 1 — Create the Logo
 
 Create a modern and playful logo for a children's clothing company called CHILDRENSMART. 
